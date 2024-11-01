@@ -606,6 +606,11 @@ video {
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
+.border-primary{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 99 99 / var(--tw-border-opacity));
+}
+
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -751,6 +756,10 @@ video {
 
   .md\:justify-end{
     justify-content: flex-end;
+  }
+
+  .md\:border-2{
+    border-width: 2px;
   }
 
   .md\:text-xl{
